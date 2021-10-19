@@ -1,0 +1,26 @@
+.book-list {
+  flex-basis: 66%;
+  border-bottom: 1px solid #d1d1d1;
+  border-right: none;
+  @media (min-width: 800px) {
+    border-right: 1px solid #d1d1d1;
+    border-bottom: none;
+  }
+
+  .book-details {
+    position: relative;
+    min-height: 200px;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .book-description {
+    flex-grow: 1;
+  }
+
+  .btn-favorite {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+  }
+}

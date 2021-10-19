@@ -1,0 +1,13 @@
+.wish-book-list {
+  flex-basis: 33%;
+  padding: 15px;
+
+  .book-title {
+    flex-grow: 1;
+  }
+
+  .total {
+    margin-top: auto;
+    padding: 16px;
+  }
+}
